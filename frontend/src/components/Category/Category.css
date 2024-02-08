@@ -1,0 +1,57 @@
+.productCategory {
+  display: flex;
+}
+
+.CategoryJarCakes,
+.CategoryCake,
+.CategoryPastry {
+  height: 75px;
+  width: 75px;
+  border-radius: 50%;
+  border: 2px solid #ff7f7d;
+  padding: 5px;
+  box-shadow: 0 0 8px rgba(0, 0, 139, 0.5);
+}
+.Offer {
+  background: linear-gradient(180deg, #0050ae 0%, #1879d2 100%);
+  border-radius: 1rem;
+  padding: 1rem;
+  color: #fff;
+  margin-top: 1rem;
+  max-width: fit-content;
+}
+.offerHeading {
+  font-weight: 900;
+  margin-bottom: 2px;
+}
+.offerPara {
+  margin-bottom: 0px;
+  font-weight: 500;
+  font-size: 0.8rem;
+  margin-top: 0.5rem;
+}
+
+.Pastry,
+.JarCake {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  margin-left: 18px;
+}
+.Cake {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+.CategoryHeading {
+  margin-top: 1.5rem;
+  margin-bottom: 1rem;
+  font-size: large;
+  font-weight: 700;
+  display: inline-block;
+}
+
+.categoryPara {
+  font-weight: 600;
+}

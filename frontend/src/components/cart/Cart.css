@@ -1,0 +1,64 @@
+.div_border{
+    border: 1px solid rgb(186, 186, 186);
+    display: flex;
+    justify-content: center;
+    border-radius: 0.5rem;
+}
+
+.grid_price_prod_delete{
+    display: flex;
+    justify-content: space-around;
+}
+
+.img_title_gap{
+   display: flex;
+   justify-content: space-between;
+}
+.product_pad{
+    padding-left: 2rem;
+    padding-top: .4rem;
+}
+
+.symbol_plus, .symbol_minus{
+    margin-top: 4px;
+}
+
+.display_flex_ConfirmOrder{
+    display: flex;
+    justify-content: center;
+}
+
+.card_style{
+    display: flex;
+    flex-flow: wrap;
+    right: 0px;
+    left: 0px;
+    margin: 0px 0.4em;
+    max-width: 100%;
+    flex-basis: auto;
+    border-radius: 3px;
+    background-color: rgb(255, 255, 255);
+    box-shadow: rgba(0, 0, 0, 0.12) 0px 2px 2px 0px, rgba(0, 0, 0, 0.12) 0px 2px 4px 0px;
+    -webkit-box-pack: center;
+    justify-content: center;
+    width: 100%;
+}
+
+.empty_Cart{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-top: 4rem;
+    text-align: center;
+}
+
+.imgEmptyCart{
+    padding-top: 2rem;
+    width: 15rem;
+    height: 15rem;
+    padding-left: 5rem;
+}
+
+.emptycartPara{
+
+}
